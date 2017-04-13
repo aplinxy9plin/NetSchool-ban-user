@@ -1,0 +1,21 @@
+{
+  "name": "NS Ban",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "NS Ban",
+  "homepage_url": "http://top4ek.pw",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "BAN!"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
